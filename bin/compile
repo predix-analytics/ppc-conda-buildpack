@@ -68,13 +68,6 @@ done
 # copy test cert
 echo "Copying self-signed certs..."
 cp ${BIN_DIR}/certs/* /app
-echo "===== PWD ====="
-pwd
-echo "===== ls / ====="
-ls /
-echo "===== ls /app ====="
-ls /app
-echo "=========="
 
 
 set +e
